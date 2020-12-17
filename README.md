@@ -222,10 +222,6 @@ References:
 
 ## Examples
 
-```
-TODO: Add example code/packages that can perform the above operations.
-```
-
 **Libraries**
 
 * NLTK:- excellent for learning and exploring NLP concepts, but not always suitable for production
