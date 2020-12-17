@@ -1,15 +1,6 @@
 # Aspect Based Sentiment Analysis Research
 
-```
-TODO: For each of these sections, write a quick note answering some of the questions in there. Place citations and references as needed. Make lists/definitions/etc as needed.
-```
-
 ## Definition(s)
-
-```
-TODO:
-Define the differences between sentiment and aspect based sentiment. Are there any other terms that should be defined? This would be a time to clarify if sentiment is a continuous valued problem or binary. [-1, 0, +1] vs. [-1, ..., +1]. Are multidimensional sentiment analyses a thing? i.e. [-1, ... +1]... [[-1, -1], ..., [+1, +1]]
-```
 Sentiment Analysis is the process of computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine the writer's polarity (eg. positive, negative, neutral) towards a piece of text. This text can be a clause, sentence, paragraph, or a whole document.
 
 The main difference between **sentiment analysis** and **aspect based sentiment analysis** is that the former only detects the sentiment of an overall text, while the latter analyzes each text to identify various aspects and determine the corresponding sentiment for each one. To understand this better, it is important to state the difference between a sentiment and an aspect.
@@ -41,11 +32,6 @@ References:
 
 
 ## Benchmarks
-
-```
-TODO:
-Define the key benchmarks (data sets and evaluation metrics) in the space.
-```
 
 **SentiWordNet** is a lexical resource for sentiment classification and opinion mining applications. It is used to identify objective sentences and later to identify the polarity for the opinion words.
 
@@ -144,11 +130,7 @@ The article refered below demonstrates ABSA on SemEval 2014 dataset and TABSA on
 References:
 * https://towardsdatascience.com/day-104-of-nlp365-nlp-papers-summary-sentihood-targeted-aspect-based-sentiment-analysis-f24a2ec1ca32
 
-## [WIP] Models
-
-```
-TODO: Define the key models in the space and explain their performance differences in terms of accuracy, fragility, speed, memory, and data requirements. What are the explicit abstract differences between how information flows in the models? "It is insufficient to understand which model is better - you must understand why a model is better."
-```
+## Models
 
 From [this paper](https://arxiv.org/pdf/1805.01984.pdf), here are some ways to encode aspect for modeling: 
 
@@ -201,10 +183,6 @@ References:
 
 ## Use Cases
 
-```
-TODO: What sorts of data sets are these techniques applicable for?
-```
-
 *Product Feedback*
 
 Today, there’s an abundance of feedback on social media, your Net Promoter Score (NPS), websites and much more, and all this textual customer feedback is key to discovering and solving customer problems. Here's how aspect-based sentiment analysis can be used to make sense of customer feedback:
@@ -228,11 +206,7 @@ References:
  * https://monkeylearn.com/blog/aspect-based-sentiment-analysis/
  * https://medium.com/@Intellica.AI/aspect-based-sentiment-analysis-everything-you-wanted-to-know-1be41572e238
 
-## [WIP] Edge Cases/Problems/Difficulties
-
-```
-TODO: Where does the current state of the art fail? Why does it fail? What are proposed solutions (there may not be any)?
-```
+## Edge Cases/Problems/Difficulties
 
 The most common challenges faced in building ABSA models are:
 

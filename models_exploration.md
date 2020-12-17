@@ -5,7 +5,7 @@
 ![bert-absa-architecture](https://gecgithub01.walmart.com/storage/user/42911/files/1f07aa00-d17b-11ea-9cea-2e584eb7570e)
 
 **Exploration:**
-- Ran fast_run.py for 10 hours on local and saved the checkpoint weights
+- Ran fast_run.py for hours on local and saved the checkpoint weights
 - Torch not imported on terminal so copied code to jupyter notebook and ran
 - Evaluated against SemEval2014, 2015, and 2016 restaurants dataset
 - Found that one run needs 3 GPUs (Blaize to come back with compute resource on Friday)
